@@ -1,0 +1,414 @@
+.ButtonContatoPage{
+  margin-top: 30px;
+  padding: 10px 80px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #FFDA2A;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.FirstComponent {
+  background-image: url(./../img/primeiraImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+                                 
+.FirstComponent div {
+  padding: 200px 0px 200px 200px;
+} 
+.Personal {
+  font-size: 46px;
+  color: white;
+} 
+
+.Ganhou{
+  font-size: 125px;
+
+} 
+
+.FirstComponent p{
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.SectionVideo{
+  background: #16120A;
+  padding: 5vh 10vw 8vh;
+  display: flex;
+}
+
+.SectionVideo div {
+  width: 50%;
+}
+
+.divVideoOne {
+  padding: 0px 20px 0px 0px;
+}
+
+.divVideoOne > div {
+  margin-top: -5.5vh;
+}
+
+.divVideoTwo{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px 0px 0px 20px;
+}
+
+.divVideoTwo p{
+  margin-bottom: 40px;
+}
+
+.SectionPerguntas{
+  background-image: url(./../img/BackgroundPretoeBranco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding:  10vh 5vw;
+  display: flex;
+}
+
+.SectionPerguntas div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding: 0px 25px;
+}
+
+
+.Perguntas h2{
+padding: 30px 0px;
+}
+
+
+
+.SectionPerguntas > div > button{
+    padding: 10px -150px !important;
+}
+
+.sectionTabela{
+  background: #16120A;
+  display: flex;
+  padding:  5vh 10vw;
+  justify-content: space-around;
+}
+
+.Tabela{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background: #151515;
+  padding: 80px;
+  margin: 10px;  
+}
+
+.segundaDiv{
+  background: #16120A;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.segundaDiv h2{
+  margin-top: 40px;
+}
+
+.BlocoItens{
+  display: flex;
+  margin: 50px 9% -25px 9%;
+  padding: 0px 1%;
+  flex-wrap: wrap;
+
+}
+
+.BlocoItens div{
+  width: 100%;
+  border: #FFDA2A solid 1px;
+  margin: 0px 1%;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 280px;
+  margin: 10px 0px;
+}
+
+
+.ProvaSocial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #16120A;
+  padding: 50px 10%;
+}
+
+.image{
+  display: flex;
+  padding: 20px;
+
+}
+
+.image div{
+  margin: 10px;
+}
+
+.FinalRelatorio{
+  max-width: 500px;
+  margin: auto 0px;
+  max-height: 500px;
+  text-align: center;
+}
+
+.FinalRelatorio h2{
+  font-size: 40px;
+}
+
+@media (max-width:1416px){
+  .FirstComponent{
+    top: 150px;
+  }
+
+  .Ganhou{
+    font-size: 75px;
+  }
+
+  .FirstComponent p {
+    max-width: 320px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px){
+  .Tabela{
+    padding: 40px;
+  }
+}
+
+@media(max-width: 1000px){
+
+  .FirstComponent {
+    background: url(./../img/mobile.jpg);
+    background-position: initial;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+  }
+
+  .FirstComponent div{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    padding: 80px 0px;
+  }
+
+  .Ganhou{
+    font-size: 85px;
+  }
+
+  .SectionVideo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SectionVideo div{
+    padding:0px;
+    width: 100% ;
+  }
+
+  .FinalRelatorio h2{
+    font-size: 20px;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 800px){
+  .sectionTabela{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;    
+  }
+
+  .SectionPerguntas{
+    flex-direction: column;
+  }
+
+  .SectionPerguntas div{
+    padding: 0px;
+    margin: 10px 20px;
+  }
+}
+
+@media (max-width: 580px){
+  .sectionTabela{
+    padding: 20px;
+  }
+
+  .ProvaSocial{
+    flex-direction: column;
+  }
+
+  .image{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  
+  }
+  
+  .image div{
+    margin: 10px;
+  }
+  
+
+  .Ganhou{
+    font-size: 55px;
+  }
+
+  .FirstComponent p {
+    max-width: 230px;
+    font-size: 16px;
+  }
+
+  .Perguntas{
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+
+  .Perguntas p {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .SectionPerguntas div{
+    max-width: 250px;
+    margin: 0px auto;
+  }
+
+  .ButtonContatoPage{
+    padding: 10px 20px;
+  }
+
+}
+
+@media(max-width: 400px){
+
+  .FirstComponent{
+    padding: 50px 0px;
+  }
+
+  .BlocoItens{
+    display: flex;
+    margin: 50px 9% -25px 9%;
+    padding: 0px 1%;
+    flex-wrap: wrap;
+  
+  }
+  
+  .BlocoItens div{
+    width: 100%;
+    border: #FFDA2A solid 1px;
+    margin: 0px 1%;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 220px;
+    margin: 10px 0px;
+  }
+  
+
+  .FirstComponent div{
+    padding: 100px 5% 0px 5%; 
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .FirstComponent div p{
+    padding: 0px;
+    margin: 5px 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .FirstComponent div button{
+    padding: 3px auto;
+    margin: 5px 0px;
+  }
+}
+
+.btnZap{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  z-index: 3000;
+}
+
+.permição{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: - calc(10% - 20px);
+  width: 100%;
+  max-width: 90vw;
+  height: 10%;
+  z-index: 2000;
+  border-radius: 10px;
+  margin: 0px 50px;
+  background-color:#f2f2f2;
+  z-index: 2000;
+  animation: popup 3s ease-in-out forwards;
+}
+
+.permição p {
+  padding: 0px 10px;
+  color: black;
+}
+
+.permição a{
+  color: black;
+}
+
+.permição button{
+padding: 10px 20px;
+margin: 0px 20px;
+}
+
+@media (max-width:750px){
+  .permição{
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0px 5%;
+    height: 20%;
+    animation: popup 3s;
+  }
+
+  .permição p{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .permição button{
+    width: 90%;
+    margin: 10px;
+    padding: 8px;
+  }
+}
+
+@keyframes popup {
+  0%{  bottom: - calc(10% - 20px);}
+  100%{  bottom: calc(5% - 20px);}
+}

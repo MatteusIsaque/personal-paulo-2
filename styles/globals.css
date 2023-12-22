@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Roboto', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+tr, td, th, h1, h2, h3,h4, p {
+	font-family: "roboto";
+}
+
+h1{
+	font-size: 35px;
+	font-weight: 800;
+	color: #f3f3f3;
+
+}
+
+h2{
+	color: #FFDA2A;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding: 15px 0px;
+}
+
+h3{
+	color: #FFDA2A;
+	padding: 10px 0px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+p{
+	font-size: 18px;
+	color: #f3f3f3;
+	font-weight: 400;
+	line-height: 1.3;
+}
+
+span{
+	font-size: 54px;
+	color: #FFDA2A;
+}
+
+footer {
+	background: #16120A;
+	padding: 5vh 10vw;
+}
+
+tr{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+thead tr th {
+	font-weight: 300;
+	font-size: 25px;
+}
+
+tbody tr th{
+	font-size: 50px;
+	font-weight: 700;
+	color: #f3f3f3;
+}
+
+
+th span{
+	font-size: 25px;
+	color: #f3f3f3;
+	padding: 0px 2px;
+}
+
+tr td{
+	padding: 20px 0px;
+}
+
+tr th{
+	padding: 10px 0px;
+}
+
+tr button {
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	background: #FFDA2A;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+tfoot{
+	border-top: solid #f3f3f3 1px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+@media (max-width:1416px){
+	span{
+		font-size: 39px;
+	}
+
+	h1{
+		font-size: 25px;
+	}
+  }
+
+  @media (max-width: 1200px){
+	h2{
+	  font-size: 20px;
+	}
+  }
+
+  @media(max-width: 1000px){
+	span{
+		font-size: 44px;
+	}
+	h1{
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 580px){
+	span{
+		font-size: 28px;
+	}
+
+	h1{
+		font-size: 18px;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	p{
+		font-size: 16px;
+	}
+
+  }
+
+  a{
+	  color: white;
+	  text-decoration: none;
+  }
