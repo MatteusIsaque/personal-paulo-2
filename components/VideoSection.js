@@ -12,7 +12,7 @@ export default function videoSection() {
         <section className={Style.SectionVideo}>
             <div className={Style.divVideoOne}>
                 <Image src={ImagePaulo} width={306} height={403} layout="responsive" />
-                <ReactPlayer width="100%" url="https://youtube.com/shorts/XQt7-512emw" />
+                <ReactPlayer width="100%" url="https://youtube.com/embed/XQt7-512emw" />
             </div>
 
 
