@@ -42,7 +42,7 @@ export default function tabela() {
                         <td>Treino corporal completo</td>
                     </tr>
                     <tr>
-                        <td>1 Planos de treinos</td>
+                        <td>1 Plano de treinos</td>
                     </tr>
                     <tr>
                         <td>Suporte Online</td>
