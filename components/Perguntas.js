@@ -15,16 +15,16 @@ export default function Perguntas() {
             </div>
             <div className={Style.Perguntas}>
                 <h2>COMO FUNCIONA A CONSULTORIA DE TREINO ONLINE?</h2>
-                <p>Primeiro iremos fazer uma análise da situação atual em que você está. Em seguida estaremos começando com um plano de treino de acordo com as suas necessidades e alinharmos com os seus objetivos.</p>
+                <p>Primeiro, faremos uma análise da sua situação atual. Em seguida, iniciaremos com um plano de treino personalizado, alinhado às suas necessidades e objetivos.</p>
 
-                <h2>COMO É DISTRIBUÍDO O TREINO?</h2>
-                <p>Eu farei todo o planejamento, baseando-se nas necessidades e objetivos.</p>
+                <h2>COMO O TREINO É DISTRIBUÍDO?</h2>
+                <p>Eu irei montar todo o planejamento com base nas suas metas e necessidades individuais.</p>
 
-                <h2>COMO SERÁ FEITO O SUPORTE?</h2>
-                <p>Contato direto com o seu PERSONAL TRAINER Paulo Eduardo, feito através de nosso aplicativo ou se preferir pelo WhatsApp.</p>
+                <h2>COMO FUNCIONA O SUPORTE?</h2>
+                <p>Você terá contato direto com o seu personal trainer, Paulo Eduardo, por meio do nosso aplicativo ou, se preferir, pelo WhatsApp.</p>
 
-                <h2>CASO TENHA ALGUMAS DÚVIDAS SOBRE ALGUM TREINO OU ALGO RELACIONADO. EU POSSO ESTAR TIRANDO ESSAS DÚVIDAS COM ELE?</h2>
-                <p>Sim, com certeza. Entenda que o meu objetivo é o mesmo que o seu, conseguir resultados. Você terá o meu auxílio em cada decisão sua. Então, porque não usar?</p>
+                <h2>SE EU TIVER ALGUMA DÚVIDA SOBRE O TREINO OU QUALQUER OUTRO ASSUNTO, POSSO FALAR COM ELE?</h2>
+                <p>Sim, com certeza! O meu objetivo é o mesmo que o seu: conquistar resultados. Você terá meu suporte em cada passo da sua jornada — então, por que não aproveitar?</p>
             </div>
         </section>
     )
