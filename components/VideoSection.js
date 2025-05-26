@@ -17,10 +17,10 @@ export default function videoSection() {
 
 
             <div className={Style.divVideoTwo}>
-                <h2>A CONSULTORIA VAI TE AJUDAR A CHEGAR NO SEU OBJETIVO</h2>
-                <p>Com alguns anos de experiência oferecendo consultoria online, eu desenvolvi técnicas simples para ensinar meus alunos a maneira correta de praticar os exercícios, melhorar em suas falhas, mudar os hábitos que impedem o desenvolvimento e assim conseguir alcançar seus objetivos.<br/><br/>
+                <h2>A CONSULTORIA QUE VAI TRANSFORMAR SEUS RESULTADOS</h2>
+                <p>Depois de anos ajudando alunos por meio da consultoria online, criei um método direto, eficaz e acessível. Nele, ensino como executar os exercícios corretamente, superar falhas, mudar hábitos que travam seu progresso e alcançar o corpo que você sempre quis.
 
-                    Vamos combinar, agora ficou mais fácil chegar nos seus resultados.</p>
+Chegou a hora de sair da estagnação e dar o próximo passo. Com o suporte certo, você chega lá!</p>
                 <ReactPlayer width="100%" url="https://www.youtube.com/embed/BuUambqsDxE" />
             </div>
         </section>
